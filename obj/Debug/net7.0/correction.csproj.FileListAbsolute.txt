@@ -1,0 +1,14 @@
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/correction/obj/Debug/net7.0/correction.GeneratedMSBuildEditorConfig.editorconfig
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/correction/obj/Debug/net7.0/correction.AssemblyInfoInputs.cache
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/correction/obj/Debug/net7.0/correction.AssemblyInfo.cs
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/correction/obj/Debug/net7.0/correction.csproj.CoreCompileInputs.cache
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/bin/Debug/net7.0/correction
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/bin/Debug/net7.0/correction.deps.json
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/bin/Debug/net7.0/correction.runtimeconfig.json
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/bin/Debug/net7.0/correction.dll
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/bin/Debug/net7.0/correction.pdb
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/obj/Debug/net7.0/correction.dll
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/obj/Debug/net7.0/refint/correction.dll
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/obj/Debug/net7.0/correction.pdb
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/obj/Debug/net7.0/correction.genruntimeconfig.cache
+/Users/el-mehdiloukach/Desktop/Ynov/cours/csharp/Correction/obj/Debug/net7.0/ref/correction.dll
