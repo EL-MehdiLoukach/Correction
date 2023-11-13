@@ -45,6 +45,29 @@ namespace Correction {
             return Number.CompareTo(other.Number);
         }
     }
+    // Custom comparer class for Student
+    public class StudentComparer : IComparer<Student>
+    {
+        public int Compare(Student x, Student y)
+        {
+            // Check for null values
+            if (x.Number == null && y.Number == null)
+            {
+                return 0; // Both are considered equal
+            }
+            else if (x.Number == null)
+            {
+                return -1; // Null is considered less than any non-null value
+            }
+            else if (y.Number == null)
+            {
+                return 1; // Any non-null value is considered greater than null
+            }
 
+            // Implement comparison logic based on your requirements
+            // For simplicity, comparing by Number
+            return x.Number.CompareTo(y.Number);
+        }
+    }
 
 }

@@ -79,7 +79,7 @@ namespace Correction {
         // Method to display sorted list of students
         static void DisplaySortedStudents(List<Student> students)
         {
-            students.Sort();
+            students.Sort(new StudentComparer());
             foreach (var student in students)
             {
                 Console.WriteLine(student);
@@ -89,7 +89,7 @@ namespace Correction {
         // Method to display sorted list of vehicles
         static void DisplaySortedVehicles(List<Vehicle> vehicles)
         {
-            vehicles.Sort();
+            vehicles.Sort(new VehiculeComparer());
             foreach (var vehicle in vehicles)
             {
                 Console.WriteLine(vehicle);

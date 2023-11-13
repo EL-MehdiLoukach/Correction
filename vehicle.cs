@@ -36,5 +36,28 @@ namespace Correction {
             return years;
         }
     }
+    public class VehiculeComparer : IComparer<Vehicle>
+    {
+        public int Compare(Vehicle x, Vehicle y)
+        {
+            // Check for null values
+            if (x.RegistrationNumber == null && y.RegistrationNumber == null)
+            {
+                return 0; // Both are considered equal
+            }
+            else if (x.RegistrationNumber == null)
+            {
+                return -1; // Null is considered less than any non-null value
+            }
+            else if (y.RegistrationNumber == null)
+            {
+                return 1; // Any non-null value is considered greater than null
+            }
+
+            // Implement comparison logic based on your requirements
+            // For simplicity, comparing by RegistrationNumber
+            return x.RegistrationNumber.CompareTo(y.RegistrationNumber);
+        }
+    }
 }
 
